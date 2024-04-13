@@ -2,5 +2,6 @@ public interface menuInstaDAM {
     void registrarse();
     void hacerPublicacion();
     void iniciarSesion();
-    void verPublicacion();
+    void verNumPublicacion();
+    void verContenidoPublicaciones();
 }
