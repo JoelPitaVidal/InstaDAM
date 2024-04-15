@@ -2,9 +2,9 @@ import javax.swing.*;
 import java.util.HashMap;
 
 public class Registro {
-    private String nombreUsuario;
-    private String contraseñaUsuario;
-    private int numpubli;
+     String nombreUsuario;
+     String contraseñaUsuario;
+     int numpubli;
 
     /**
      * nobmreusuario: nombre del usuario

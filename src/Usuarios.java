@@ -7,6 +7,12 @@ public class Usuarios extends JFrame {
     Registro reg= new Registro();
     String  nombre;
     String  contraseña;
+
+    /**
+     * @param nombreUsuario nombre del usuario
+     * @param contraseñaUsuario contraseña del usuario
+     */
+
 //Constructor Parametrizado
     public Usuarios(String nombreUsuario, String contraseñaUsuario) {
         this.nombre = nombreUsuario;

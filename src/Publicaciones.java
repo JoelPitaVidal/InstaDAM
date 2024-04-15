@@ -8,6 +8,12 @@ public class Publicaciones extends JFrame{
     int contador;
     String siOno;
 
+    /**
+     * contenido: contenido de la publicación
+     * contador: cuenta el número de publicaciones realizadas por el usuario
+     * siOno: gestiona el número de publicaciones realizadas, permitiendo hacer varias seguidas
+     */
+
 //Constructor sin parametrizar
     public Publicaciones(){
     }
