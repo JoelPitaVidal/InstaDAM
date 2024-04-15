@@ -7,7 +7,6 @@ public class Usuarios extends JFrame {
     Registro reg= new Registro();
     String  nombre;
     String  contraseña;
-    String  numeroPublicaciones;
 //Constructor Parametrizado
     public Usuarios(String nombreUsuario, String contraseñaUsuario) {
         this.nombre = nombreUsuario;
@@ -26,6 +25,7 @@ public class Usuarios extends JFrame {
           JButton inicioSesion = new JButton("Iníciar de sesión");
           panel.add(inicioSesion);
           add(panel);
+//Añadimos una acción al boton de inicio de sesión
           inicioSesion.addActionListener(new ActionListener(){
           @Override
           public void actionPerformed(ActionEvent e){
